@@ -9,6 +9,7 @@ from telegram.ext import (
     filters
 )
 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 chat = ChatGroq(
